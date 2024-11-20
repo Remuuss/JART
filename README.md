@@ -1,6 +1,6 @@
-#JART PPS4 Reconnaissance des chiffres manuscrits utilisant l'intelligence artificielle (AI) avec l'apprentissage machine (Machine Learning)
+# JART PPS4 Reconnaissance des chiffres manuscrits utilisant l'intelligence artificielle (AI) avec l'apprentissage machine (Machine Learning)
 
-##Voici la description de chacun des fichiers présent dans le projet.
+## Voici la description de chacun des fichiers présent dans le projet.
 
 BodyBase.stl : Fichier du modèle 3D du boitier.
 

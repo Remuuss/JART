@@ -21,3 +21,9 @@ Cours PPS Projet_PPS4_V2.docx : Fichier du cahier de charge
 PPS4_Base.gan, PPS4_S2.gan, PPS4_S3.gan, PPS4_S4.gan, PPS4_S5.gan : Échéancier modifier à chaque semaine (S2, S3, S4, S5).
 
 Diagramme Fonctionnel.sch : Fichier du diagramme du fonctionnel du projet.
+
+## Lien utilisé
+
+Nous nous sommes inspirés de ce projet pour réaliser le nôtre : https://github.com/code2k13/rpipico_digit_classification/tree/main
+
+Librairie utilisé pour la caméra (modifié) : https://github.com/namato/micropython-ov2640

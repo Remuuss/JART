@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PPS4_S1" company="" webLink="http://" view-date="2024-09-10" view-index="1" gantt-divider-location="351" resource-divider-location="300" version="3.3.3311" locale="en_CA">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#cccc00 #0066ff #ff9900 #00cc00 #ff3333 #00cccc #ff0099]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="0" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="e664894babee49c991f3558f6cb966a6" name="CDC" color="#00cccc" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="dbc665e2b91d4d42ace9b1226b708a6f" name="Kickoff Meeting" color="#ff0099" meeting="true" start="2024-10-10" duration="0" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="443bbd88084047a88ede097da0d41f14" name="Alimentation/Design" color="#ff3333" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="2ab80e0bad2847b9a8bf73b4a8a515a4" name="Alimentation/Vérification" color="#ff3333" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="8da29c439991434f8b979a743792b1cf" name="Alimentation/intégration" color="#ff3333" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" uid="9af6df3f130742ecbe0af61082245d7b" name="Alimentation finie" color="#ff0099" meeting="true" start="2024-10-17" duration="0" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="df03f406d1d448c5a827ee1f1b5bfcb8" name="Diagramme Fonctionnel" meeting="false" start="2024-10-10" duration="2" complete="0" expand="true"/>
+        <task id="1" uid="87570f475a754b6e90e96c6826fe4c35" name="Design du PCB/Création" color="#00cc00" meeting="false" start="2024-10-17" duration="3" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="cfde0bd33b5e48029759ff48dee165a5" name="Design du PCB/Montage" color="#00cc00" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="6ee1a526ead9490ea2cf2e0ef593248d" name="Design du PCB/vérification" color="#00cc00" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="97552398ac234ff3bc2caac36ff70524" name="Design du PCB/intégration" color="#00cc00" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="1c44962c73e247c3a63cc2ba4dc8fcc0" name="PCB fini" color="#ff0099" meeting="true" start="2024-11-07" duration="0" complete="0" expand="true"/>
+        <task id="7" uid="7734e0fa565d4ee880a692545e115237" name="Programmation" color="#0066ff" meeting="false" start="2024-10-17" duration="3" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="dbe309983392454fb58bc003d8d181ee" name="Cloud" color="#0066ff" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="11511663df184373bf1d34c788e72e28" name="Boitier 3D/Design" color="#ff9900" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="0451a08db2934b0d9cb06fa5f2f2f1ca" name="Boitier 3D/Intégration" color="#ff9900" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="5384219a5321449d9d9fbd32ace8446f" name="Boitier fini" color="#ff0099" meeting="true" start="2024-11-07" duration="0" complete="0" expand="true"/>
+        <task id="20" uid="b8277de93c5a4fedb31478896ce901cb" name="Software fini" color="#ff0099" meeting="true" start="2024-11-07" duration="0" complete="0" expand="true"/>
+        <task id="9" uid="cf82a5fc528943c88b34ebf41311b2e8" name="Intégration Finale" color="#cccc00" meeting="false" start="2024-11-07" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Alexandre Locas" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Remi Kammer-Mayer" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Tristan Beauregard" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Justin Theriault" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="15" resource-id="2" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="8" resource-id="3" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

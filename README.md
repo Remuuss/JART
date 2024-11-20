@@ -15,3 +15,7 @@ draft.sch : Fichier du schématique de la carte mère.
 main.py : Fichier du code principal.
 
 Cours PPS Projet_PPS4_V2.docx : Fichier du cahier de charge
+
+PPS4_Base.gan, PPS4_S2.gan, PPS4_S3.gan, PPS4_S4.gan, PPS4_S5.gan : Échéancier modifier à chaque semaine (S2, S3, S4, S5).
+
+Diagramme Fonctionnel.sch : Fichier du diagramme du fonctionnel du projet.
